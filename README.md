@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
@@ -23,3 +24,6 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+=======
+# uedent
+>>>>>>> a042bdd91180a2791ff254f79cf824d8e1372faf
