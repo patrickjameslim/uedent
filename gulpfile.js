@@ -82,7 +82,7 @@ gulp.task('images', function () {
     return gulp.src(p.images.src)
     .pipe(g.if(c,g.imagemin()))
     .pipe(g.size())
-    .pipe(gulp.dest(p.dest+'img'));
+    .pipe(gulp.dest(p.dest+'images'));
 });
 
 //utilities

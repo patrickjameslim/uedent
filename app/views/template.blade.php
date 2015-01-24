@@ -21,9 +21,49 @@
 <body>
     
 	
-	
+	<section class="header">
+		<!-- navigation and accoiunts + settings -->
+		<div class="acc-desc-container">
+			<div class="hold-pic">
+				<img src="assets/images/userimage/no-image.jpg">
+			</div>
+			<div class="acc-desc">
+				<h4>Patrick James G. Lim</h4>
+				<h6>Administrator</h6>
+			</div>
+		</div>
+		<div class="main-nav-container">
+			<div class="main-nav">
+				<ul>
+					<li>home</li>
+					<li>users</li>
+					<li>patients</li>
+					<li>cases</li>
+				</ul>
+			</div>
+		</div>
+		<div class="nav-settings-container">
+			<div class="nav-settings">
+				<ul>
+					<li>search</li>
+					<li>messages</li>
+					<li>settings</li>
+					<li>logout</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
+	<section class="main-content">
+		<div class="row">
+			<!-- content here !! :)) -->
+			@yield('content');
+		</div>
+	</section>
 
+	<section class="footer">
+		<!-- footer here !! :)) doesn't necessary but for copyright :)) -->
+	</section>
 
 	
 	<!-- 3rd party js libraries -->
